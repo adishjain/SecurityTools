@@ -4,10 +4,19 @@
 * [dex2jar](#dex2jar)
 * [JD-GUI](#jd-gui)
 * [MobSF](#mobsf)
-* [Inspeckage](#inspeckage)
+* [Cydia Impactor](#Cydia--Impactor)
+* [Keychain-Dumper](#Keychain--Dumper)
+* [Class-Dump](#Class-Dump)
+* [Clutch](#Clutch)
+* [Passionfruit](#Passionfruit)
+* [Needle](#Needle)
+
+
 ## Free and Closed-Source
+
 ## Paid
 * [Fortify Static Code Analyzer](#fortify)
+* [Hopper](#Hopper)
 
 ## Open Source
 ### [AppUse](https://appsec-labs.com/appuse)
@@ -31,8 +40,29 @@ Open “.jar” file with JD-GUI, where we can view the source code of the appli
 ### [Inspeckage](https://github.com/ac-pm/Inspeckage)
 #### Inspeckage is a tool to offer dynamic analysis of Android applications. By applying hooks to functions of the Android API, Inspeckage will help you understand what an Android application is doing at runtime and moreover satart unexported activities (Xposed Module).
 
+### [Cydia Impactor](http://www.cydiaimpactor.com/)
+#### Cydia Impactor is a GUI tool for working with mobile devices. This tool is use for installing IPA files on iOS and APK files on Android. It also can help you exploit the series of Android "Master Key" vulnerabilities.
+
+### [Keychain Dumper](https://github.com/ptoomey3/Keychain-Dumper)
+#### A tool to check which keychain items are available to an attacker once an iOS device has been jailbroken.
+
+### [Class-Dump](http://stevenygard.com/projects/class-dump/)
+#### Class Dump is a command-line utility for examining the Objective-C runtime information stored in Mach-O files. It generates declarations for the classes, categories and protocols. Also we can look at the design of closed source applications, frameworks, and bundles. Watch the interfaces evolve between releases. Experiment with private frameworks, or see what private goodies are hiding in the AppKit. 
+
+### [Clutch](https://github.com/KJCracks/Clutch)
+#### Clutch is a high-speed iOS decryption tool. Clutch supports the iPhone, iPod Touch, and iPad as well as all iOS version, architecture types, and most binaries. Clutch is meant only for educational purposes and security research.Clutch requires a jailbroken iOS device with version 8.0 or greater.
+
+### [Passionfruit](https://github.com/chaitin/passionfruit)
+####  Passionfruit is a crappy iOS app analyzer and having number of features like Capture screenshot, Check signature entitlements, Log and try to bypass jailbreak detection, Log SQLite operations, List Objective-C classes from app, hook the methods and inspect the arguments and stack trace, Dump KeyChain, BinaryCookies and UserDefaults etc.
+
+### [Needle](https://github.com/mwrlabs/needle)
+####  Needle is an open source, modular framework to streamline the process of conducting security assessments of iOS apps. Needle is intended to be useful not only for security professionals, but also for developers looking to secure their code. A few examples of testing areas covered by Needle include: data storage, inter-process communication, network communications, static code analysis, hooking and binary protections. The only requirement in order to run Needle effectively is a jailbroken device.
+
 ## Free and Closed-Source
 
 ## Paid
 ### [Fortify](https://software.microfocus.com/en-us/products/static-code-analysis-sast/overview)
 #### Fortify Static Code Analyzer (SCA) plays an essential role in helping to create secure software by identifying vulnerabilities with less effort, in less time, and maintaining code quality.  
+
+### [Hopper](https://www.hopperapp.com/)
+#### Hopper Disassembler, the reverse engineering tool that lets you disassemble, decompile and debug your iOS applications. Hopper displays the code using different representations. Edit, annotate, comment your work directly from the interactive CFG view. For detail information please visit: https://www.hopperapp.com/
